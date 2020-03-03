@@ -1,4 +1,6 @@
-﻿namespace DDDTacticalPatterns.Entities.Console
+﻿using System;
+
+namespace DDDTacticalPatterns.Entities.ConsoleTest
 {
     class Program
     {
