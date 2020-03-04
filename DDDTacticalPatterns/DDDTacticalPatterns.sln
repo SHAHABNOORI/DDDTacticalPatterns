@@ -15,6 +15,16 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDDTacticalPatterns.Entitie
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDDTacticalPatterns.Entities.DomainServices", "DDDTacticalPatterns.Entities.DomainServices\DDDTacticalPatterns.Entities.DomainServices.csproj", "{13C9B765-5A6F-4AAC-83EA-5B7D0B563E5B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DomainEvents", "DomainEvents", "{E660F3F6-2319-4136-9584-97EDD2843F4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDDTacticalPatterns.DomainEvents.Frameworks", "DDDTacticalPatterns.DomainEvents.Frameworks\DDDTacticalPatterns.DomainEvents.Frameworks.csproj", "{9ED52556-7A72-46C0-A670-83C7E39353AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDDTacticalPatterns.DomainEvents.CoreDomain", "DDDTacticalPatterns.DomainEvents.CoreDomain\DDDTacticalPatterns.DomainEvents.CoreDomain.csproj", "{AA694396-7AEA-4FF3-93D7-004F058E88A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDDTacticalPatterns.DomainEvents.ApplicationService", "DDDTacticalPatterns.DomainEvents.ApplicationService\DDDTacticalPatterns.DomainEvents.ApplicationService.csproj", "{B4C3B154-C296-45D9-8507-FBA30CBB3D10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDDTacticalPatterns.DomainEvents.EndPoint", "DDDTacticalPatterns.DomainEvents.EndPoint\DDDTacticalPatterns.DomainEvents.EndPoint.csproj", "{0AA058CB-5C18-48C7-849B-2AB43C6CCC48}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,9 +55,31 @@ Global
 		{13C9B765-5A6F-4AAC-83EA-5B7D0B563E5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{13C9B765-5A6F-4AAC-83EA-5B7D0B563E5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{13C9B765-5A6F-4AAC-83EA-5B7D0B563E5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9ED52556-7A72-46C0-A670-83C7E39353AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9ED52556-7A72-46C0-A670-83C7E39353AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9ED52556-7A72-46C0-A670-83C7E39353AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9ED52556-7A72-46C0-A670-83C7E39353AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA694396-7AEA-4FF3-93D7-004F058E88A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA694396-7AEA-4FF3-93D7-004F058E88A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA694396-7AEA-4FF3-93D7-004F058E88A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA694396-7AEA-4FF3-93D7-004F058E88A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4C3B154-C296-45D9-8507-FBA30CBB3D10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4C3B154-C296-45D9-8507-FBA30CBB3D10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4C3B154-C296-45D9-8507-FBA30CBB3D10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4C3B154-C296-45D9-8507-FBA30CBB3D10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AA058CB-5C18-48C7-849B-2AB43C6CCC48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AA058CB-5C18-48C7-849B-2AB43C6CCC48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AA058CB-5C18-48C7-849B-2AB43C6CCC48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AA058CB-5C18-48C7-849B-2AB43C6CCC48}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9ED52556-7A72-46C0-A670-83C7E39353AC} = {E660F3F6-2319-4136-9584-97EDD2843F4F}
+		{AA694396-7AEA-4FF3-93D7-004F058E88A8} = {E660F3F6-2319-4136-9584-97EDD2843F4F}
+		{B4C3B154-C296-45D9-8507-FBA30CBB3D10} = {E660F3F6-2319-4136-9584-97EDD2843F4F}
+		{0AA058CB-5C18-48C7-849B-2AB43C6CCC48} = {E660F3F6-2319-4136-9584-97EDD2843F4F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3DBED3C9-1443-4511-9443-0DEE44DBCCA2}
