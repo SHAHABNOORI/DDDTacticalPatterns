@@ -13,17 +13,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDDTacticalPatterns.Entitie
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDDTacticalPatterns.Entities.ConsoleTest", "DDDTacticalPatterns.Entities.ConsoleTest\DDDTacticalPatterns.Entities.ConsoleTest.csproj", "{AFA370EC-140E-4B61-B037-C6173E0C7AEE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDDTacticalPatterns.Entities.DomainServices", "DDDTacticalPatterns.Entities.DomainServices\DDDTacticalPatterns.Entities.DomainServices.csproj", "{13C9B765-5A6F-4AAC-83EA-5B7D0B563E5B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDDTacticalPatterns.Entities.DomainServices", "DDDTacticalPatterns.Entities.DomainServices\DDDTacticalPatterns.Entities.DomainServices.csproj", "{13C9B765-5A6F-4AAC-83EA-5B7D0B563E5B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DomainEvents", "DomainEvents", "{E660F3F6-2319-4136-9584-97EDD2843F4F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDDTacticalPatterns.DomainEvents.Frameworks", "DDDTacticalPatterns.DomainEvents.Frameworks\DDDTacticalPatterns.DomainEvents.Frameworks.csproj", "{9ED52556-7A72-46C0-A670-83C7E39353AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDDTacticalPatterns.DomainEvents.Frameworks", "DDDTacticalPatterns.DomainEvents.Frameworks\DDDTacticalPatterns.DomainEvents.Frameworks.csproj", "{9ED52556-7A72-46C0-A670-83C7E39353AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDDTacticalPatterns.DomainEvents.CoreDomain", "DDDTacticalPatterns.DomainEvents.CoreDomain\DDDTacticalPatterns.DomainEvents.CoreDomain.csproj", "{AA694396-7AEA-4FF3-93D7-004F058E88A8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDDTacticalPatterns.DomainEvents.CoreDomain", "DDDTacticalPatterns.DomainEvents.CoreDomain\DDDTacticalPatterns.DomainEvents.CoreDomain.csproj", "{AA694396-7AEA-4FF3-93D7-004F058E88A8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDDTacticalPatterns.DomainEvents.ApplicationService", "DDDTacticalPatterns.DomainEvents.ApplicationService\DDDTacticalPatterns.DomainEvents.ApplicationService.csproj", "{B4C3B154-C296-45D9-8507-FBA30CBB3D10}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDDTacticalPatterns.DomainEvents.ApplicationService", "DDDTacticalPatterns.DomainEvents.ApplicationService\DDDTacticalPatterns.DomainEvents.ApplicationService.csproj", "{B4C3B154-C296-45D9-8507-FBA30CBB3D10}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDDTacticalPatterns.DomainEvents.EndPoint", "DDDTacticalPatterns.DomainEvents.EndPoint\DDDTacticalPatterns.DomainEvents.EndPoint.csproj", "{0AA058CB-5C18-48C7-849B-2AB43C6CCC48}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDDTacticalPatterns.DomainEvents.EndPoint", "DDDTacticalPatterns.DomainEvents.EndPoint\DDDTacticalPatterns.DomainEvents.EndPoint.csproj", "{0AA058CB-5C18-48C7-849B-2AB43C6CCC48}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EventSourcing", "EventSourcing", "{617FFBC1-1913-484C-9B75-BABB36C0CC00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDDTacticalPatterns.EventSourcingSample", "DDDTacticalPatterns.EventSourcingSample\DDDTacticalPatterns.EventSourcingSample.csproj", "{3107CA33-5BF6-4C1C-A944-3F9D412C1D83}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDDTacticalPatterns.EventSourcing.Ui", "DDDTacticalPatterns.EventSourcing.Ui\DDDTacticalPatterns.EventSourcing.Ui.csproj", "{FFDCFDEB-2BEA-49B1-A2E9-9AF6EC247D8D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -71,6 +77,14 @@ Global
 		{0AA058CB-5C18-48C7-849B-2AB43C6CCC48}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0AA058CB-5C18-48C7-849B-2AB43C6CCC48}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0AA058CB-5C18-48C7-849B-2AB43C6CCC48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3107CA33-5BF6-4C1C-A944-3F9D412C1D83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3107CA33-5BF6-4C1C-A944-3F9D412C1D83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3107CA33-5BF6-4C1C-A944-3F9D412C1D83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3107CA33-5BF6-4C1C-A944-3F9D412C1D83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFDCFDEB-2BEA-49B1-A2E9-9AF6EC247D8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFDCFDEB-2BEA-49B1-A2E9-9AF6EC247D8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFDCFDEB-2BEA-49B1-A2E9-9AF6EC247D8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFDCFDEB-2BEA-49B1-A2E9-9AF6EC247D8D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -80,6 +94,8 @@ Global
 		{AA694396-7AEA-4FF3-93D7-004F058E88A8} = {E660F3F6-2319-4136-9584-97EDD2843F4F}
 		{B4C3B154-C296-45D9-8507-FBA30CBB3D10} = {E660F3F6-2319-4136-9584-97EDD2843F4F}
 		{0AA058CB-5C18-48C7-849B-2AB43C6CCC48} = {E660F3F6-2319-4136-9584-97EDD2843F4F}
+		{3107CA33-5BF6-4C1C-A944-3F9D412C1D83} = {617FFBC1-1913-484C-9B75-BABB36C0CC00}
+		{FFDCFDEB-2BEA-49B1-A2E9-9AF6EC247D8D} = {617FFBC1-1913-484C-9B75-BABB36C0CC00}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3DBED3C9-1443-4511-9443-0DEE44DBCCA2}
